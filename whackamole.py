@@ -1,7 +1,7 @@
 import pygame
 from random import randrange
 
-
+#This works
 def draw_grid(screen):
     for i in range(1,16):
         pygame.draw.line(screen, "purple", (0,i*32), (640, i*32), 3)
